@@ -1,0 +1,34 @@
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: black;
+    color: blueviolet;
+    width: 100%;
+}
+
+.third-width {
+    width: 30%;
+    height: 50px;
+
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.add {
+    background-color: mediumaquamarine;
+    width: 30%;
+}
+
+.current-number {
+    background-color: bisque;
+}
+
+.subtract {
+    background-color: pink;
+}
