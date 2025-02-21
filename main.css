@@ -1,34 +1,73 @@
+/*****General Styles *****/
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+/***** Styles *****/
+
 html {
-    height: 100vh;
+  height: 100vh;
+  width: 100%;
 }
 
 body {
-    background-color: black;
-    color: blueviolet;
-    width: 100%;
+  background-color: #d8a7d8;
+  color: black;
+
+  font-family: "Rubik", serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
-.third-width {
-    width: 30%;
-    height: 50px;
-
+.counter {
+  flex-direction: row;
+  gap: 10px;
 }
 
-main {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
+.button-size {
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 3px 3px 10px rgba(117, 44, 185, 0.2);
 }
 
 .add {
-    background-color: mediumaquamarine;
-    width: 30%;
+  background-color: #a8e6cf;
+  color: #3c6f3e;
 }
 
 .current-number {
-    background-color: bisque;
+  background-color: whitesmoke;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  font-size: 1.3em;
 }
 
 .subtract {
-    background-color: pink;
+  background-color: #ffb3d9;
+  color: #7f3355;
 }
